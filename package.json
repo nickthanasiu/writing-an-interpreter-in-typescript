@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "tsc --noEmit && jest"
+    "test": "tsc --noEmit && jest",
+    "test:watch": "tsc --noEmit && jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
